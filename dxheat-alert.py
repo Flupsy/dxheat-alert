@@ -19,8 +19,9 @@ import json
 #   'OC' = Oceania
 URL = 'https://dxheat.com/heatmap/source/heatmap/?c=EU'
 
+# Just comment out any bands you're not interested in.
 band_map = {
-        '55': '6m',
+        #'55': '6m',
         '85': '10m',
         '115': '12m',
         '145': '15m',
@@ -28,8 +29,8 @@ band_map = {
         '205': '20m',
         '235': '30m',
         '265': '40m',
-        '295': '80m',
-        '325': '160m',
+        #'295': '80m',
+        #'325': '160m',
         }
 
 
